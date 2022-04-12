@@ -32,15 +32,24 @@ header {
 }
 
 .msg {
-    background-color: #D4EDDA;
+    background-color: #d4edda;
     color: #155724;
-    border: 1px solid #C3E6CB;
+    border: 1px solid #c3e6cb;
     width: 100%;
     margin-bottom: 0;
     text-align: center;
     padding: 10px;
-  }
+}
 
+#info-container .already-joined-msg{
+    margin: 15px 0;
+    color: #004085;
+    background-color: #CCE5FF;
+    border: 1px solid #B8DAFF;
+    width: 275px;
+    padding: 10px
+
+}
 #navbar img {
     width: 40px;
 }
@@ -98,7 +107,7 @@ header {
     max-width: 25%;
     border-radius: 10px;
     padding: 0px;
-    margin: .5%;
+    margin: 0.5%;
 }
 
 #events-container img {
@@ -165,45 +174,68 @@ footer p {
 
 /* Event page */
 #image-container,
-#info-container{
+#info-container {
     margin-top: 30px;
 }
 
-#image-container img{
+#image-container img {
     border-radius: 10px;
 }
 
-#info-container h1{
+#info-container h1 {
     font-size: 36px;
     font-weight: bold;
 }
 
-#info-container p{
+#info-container p {
     margin: 0;
     font-size: 14px;
     display: flex;
 }
 
-#info-container h3, #description-container h3{
+#description-container {
+    margin-top: 30px;
+}
+#info-container h3,
+#description-container h3 {
     font-size: 20px;
     font-weight: bold;
 }
 
-#info-container ion-icon{
+#info-container ion-icon {
     font-size: 20px;
     color: #f2a340;
     margin-right: 5px;
 }
 
-#info-container #event-submit{
+#info-container #event-submit {
     margin: 20px 0;
 }
 
-#items-list{
+#items-list {
     list-style: none;
     padding-left: 0;
 }
 
-#items-list li{
+#items-list li {
     display: flex;
+}
+
+/*Edit page*/
+.img-preview {
+    width: 100px;
+    margin-top: 20px;
+}
+
+/* Dashboard */
+.dashboard-title-container {
+    margin: 30px 0;
+}
+
+.dashboard-events-container th {
+    width: 25%;
+}
+
+.dashboard-events-container form {
+    display: inline-block;
 }
