@@ -31,6 +31,16 @@ header {
     border: 2px solid #c28008;
 }
 
+.msg {
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+  }
+
 #navbar img {
     width: 40px;
 }
@@ -151,4 +161,49 @@ footer p {
 #event-create-container select,
 #event-create-container textarea {
     font-size: 12px;
+}
+
+/* Event page */
+#image-container,
+#info-container{
+    margin-top: 30px;
+}
+
+#image-container img{
+    border-radius: 10px;
+}
+
+#info-container h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#info-container p{
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container h3, #description-container h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info-container ion-icon{
+    font-size: 20px;
+    color: #f2a340;
+    margin-right: 5px;
+}
+
+#info-container #event-submit{
+    margin: 20px 0;
+}
+
+#items-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#items-list li{
+    display: flex;
 }
